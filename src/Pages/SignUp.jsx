@@ -43,7 +43,7 @@ export default function SignUp() {
             if (name.trim() === '') {
                 setNameValid('Please enter name.')
             }
-            else if (!/^[a-zA-Z _-]{3,16}$/.test(name)) {
+            else if (!/^[a-zA-Z _-]{3,30}$/.test(name)) {
                 setNameValid('Name is not valid.')
             }
             else {
